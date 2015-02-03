@@ -38,7 +38,7 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         //device is ready
-        
+        AppUpdater('http://rwd.swiss-metrics.com/api/rest/mobileUpdate');
     },
 
     //hide mobile menu after click 
