@@ -1,4 +1,4 @@
-var swissServices = angular.module('swissServices', ['ngResource', 'ngCookies']);
+var swissServices = angular.module('swissServices', ['ngResource']);
 
 // REST requests
 swissServices.factory('REST', ['$resource', 'API_SERVER', 'Auth', function($resource, API_SERVER, Auth){
